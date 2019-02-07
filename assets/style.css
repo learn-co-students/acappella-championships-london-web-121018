@@ -15,12 +15,25 @@ th {
   font-weight: bold;
 }
 
+th:hover {
+  cursor: pointer;
+}
+
+td {
+  padding: 15px;
+  vertical-align: middle;
+}
+
 .width-75 {
   width: 75%;
 }
 
 .center {
   text-align: center;
+}
+
+#winner.middle {
+  padding: 0px 20px 30px 20px;
 }
 
 .padding {
@@ -47,4 +60,31 @@ th {
   border-style: solid;
   border-width: 1px;
   border-color: grey;
+}
+
+.trophy-icon {
+  background-color: #CDCDCD;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.trophy-icon:hover {
+  color: #D4AF37;
+  background-color: #F0E68C;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.delete-btn {
+  border-radius: 5px;
+  background-color: rgba(255,0,0,0.7);
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: rgba(255,0,0,1);
+  cursor: pointer;
 }

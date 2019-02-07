@@ -1,20 +1,10 @@
-{ "a_cappella_groups":
-  [
+{
+  "a_cappella_groups": [
     {
       "id": 1,
       "name": "SoCal VoCals",
       "membership": "mixed",
       "college": {
-        "name": "University of Southern California",
-        "state": "CA",
-        "division": "West"
-      }
-    },
-    {
-      "id": 2,
-      "name": "Sirens",
-      "membership": "soprano/alto",
-        "college": {
         "name": "University of Southern California",
         "state": "CA",
         "division": "West"
@@ -151,9 +141,9 @@
       }
     },
     {
-    "id": 16,
-    "name": "Academical Village People",
-    "membership": "tenor/bass",
+      "id": 16,
+      "name": "Academical Village People",
+      "membership": "tenor/bass",
       "college": {
         "name": "University of Virginia",
         "state": "VA",
@@ -186,16 +176,6 @@
       "membership": "soprano/alto",
       "college": {
         "name": "Smith College",
-        "state": "MA",
-        "division": "East"
-      }
-    },
-    {
-      "id": 20,
-      "name": "Chorallaries",
-      "membership": "mixed",
-      "college": {
-        "name": "Massachusetts Institute of Technology",
         "state": "MA",
         "division": "East"
       }
